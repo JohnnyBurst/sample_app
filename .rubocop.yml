@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:  # skip all of the following....
+    - db/**/*  # schema files are auto generated
+    - bin/**/*  # bin files are auto generated
+    - /**/*.gemspec
+    - app/assets/**/*
+    - tmp/**/*
+  RunRailsCops: true
+Documentation:
+  Enabled: true  # don't require docs @ top level of class
+Style/StringLiterals:
+  Enabled: true
+Style/HashSyntax:
+  Enabled: true
+Metrics/LineLength:
+  Max: 80
