@@ -16,7 +16,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'faker'
 
 group :development do
-  gem 'seeds', '~> 0.1.7'
   gem 'quiet_assets', '~> 1.0.3'
   gem 'spring', '~> 1.1.3'
   gem 'pry-rails', '~> 0.3.4'
